@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node -- server.js",
     "test": "mocha --compilers js:babel/register",
-    "lint": "jsxhint server.js test"
+    "lint": "eslint server.js test"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
     "expect": "latest"
   },
   "devDependencies": {
-    "jsxhint": "latest"
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.5.1",
+    "eslint-plugin-react": "^3.4.2"
   }
 }
