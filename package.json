@@ -1,0 +1,29 @@
+{
+  "name": "countriess-node-express",
+  "version": "0.0.0",
+  "description": "Countries API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node -- server.js",
+    "test": "mocha --compilers js:babel/register",
+    "lint": "jsxhint server.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:api-samples/countries-node-express.git"
+  },
+  "author": "Mikael Gueck",
+  "license": "BSD",
+  "dependencies": {
+    "nodemon": "latest",
+    "babel": "^5.8.23",
+    "lodash": "^3.10.1",
+    "express": "latest",
+    "mocha": "latest",
+    "expect": "latest"
+  },
+  "devDependencies": {
+    "jsxhint": "latest"
+  }
+}
