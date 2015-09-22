@@ -6,9 +6,7 @@ const express = require('express');
 
 const data = JSON.parse(fs.readFileSync('countries.json', 'utf8'));
 
-const app = express();
-
-export default app;
+export const app = express();
 
 app.get('/countries/:cca2', (req, res) => {
     const found = lo.find(data, (c) => c.cca2 === req.params.cca2);
