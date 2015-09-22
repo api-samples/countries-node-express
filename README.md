@@ -7,4 +7,4 @@ Developed using Node v4.1.0.
     npm test
     npm start
 
-Point your browser to [http://localhost:3000/countries/FI].
+Point your browser to http://localhost:3000/countries/FI.
