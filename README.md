@@ -9,4 +9,12 @@ Babel.JS for ES6 compatibility. lodash for utilities. Mocha for testing. eshint 
     npm test
     npm start
 
-Point your browser to http://localhost:3000/countries/FI.
+Point your browser to http://localhost:3000/countries/FI
+
+If you have trouble installing Node 4.1.0, but have access to Docker, you can try:
+
+    ./in-docker.sh npm run-script lint
+
+or just
+
+    docker run -it --rm -v `pwd`:/app -w=/app node:4.1.0 npm start
