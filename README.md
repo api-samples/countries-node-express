@@ -17,4 +17,4 @@ If you have trouble installing Node 4.1.0, but have access to Docker, you can tr
 
 or just
 
-    docker run -it --rm -v `pwd`:/app -w=/app node:4.1.0 npm start
+    docker run -it --rm -v `pwd`:/app -w=/app node:4.1.0 -p 3000:3000 npm start
