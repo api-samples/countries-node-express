@@ -1,9 +1,8 @@
 'use strict';
 
-const fs = require('fs');
 const express = require('express');
 
-const data = JSON.parse(fs.readFileSync('countries.json', 'utf8'));
+const data = require('./countries.json');
 
 export const app = express();
 
