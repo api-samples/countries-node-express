@@ -17,14 +17,14 @@
   "license": "BSD",
   "dependencies": {
     "nodemon": "latest",
-    "babel": "^5.8.23",
+    "babel": "^6.23.0",
     "express": "latest",
     "mocha": "latest",
     "expect": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^1.5.1",
+    "eslint": "^6.8.0",
     "eslint-plugin-react": "^5.2.2"
   }
 }
